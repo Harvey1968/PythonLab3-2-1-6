@@ -26,3 +26,8 @@ print("""
         /\`.   ,-._
             `-'     
 """, '              "Remember they all float down here! Ha Ha!"\n') #credit art - www.ascii-art.de/
+
+# range(1, 6) ;; deference is 5 (6-1=5), therefore it will increment by 1 (default) proceeding: 1,2,3,4,5,end
+# range(1, 6, 1) ;; no need for 3rd value (default increment is 1 anyways), it would still proceed: 1,2,3,4,5,end
+# range(2, 10, 2) ;; deference is 8 (10-2=8), and 3rd value means it will increment by 2 therefore it will proceed: 2,4,6,8,end
+# range(5, 1, -1) ;; countdown timer ;; deference is -4 (1-5=-4), therefore it will increment by -1 proceeding: -5,-4,-3,-2,end ;; to do -5,-4,-3,-2,-1,end write: range(5, 0, -1)
